@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopRank Technologies, LLC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0A0A0A;
+            color: #F5F5F5;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 50px;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            border-bottom: 1px solid rgba(212,175,55,0.2);
+        }
+
+        nav a {
+            color: #D4AF37;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: #D4AF37;
+            font-weight: 700;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #0A0A0A, #111111);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: #D4AF37;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            margin-top: 35px;
+            padding: 14px 40px;
+            background: #D4AF37;
+            color: #0A0A0A;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #C9A94A;
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 100px 40px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            color: #D4AF37;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+
+        .card {
+            background: #111111;
+            padding: 35px;
+            width: 300px;
+            border-radius: 12px;
+            border: 1px solid rgba(212,175,55,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            border-color: #D4AF37;
+            box-shadow: 0 0 25px rgba(212,175,55,0.15);
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #0A0A0A;
+            color: #888;
+            border-top: 1px solid rgba(212,175,55,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">TopRank Technologies</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="team.html">Team</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<header>
+    <h1>TopRank Technologies, LLC</h1>
+    <p>Premium digital solutions and enterprise‑grade technology services crafted for organizations that demand excellence.</p>
+    <a href="services.html" class="btn">Explore Services</a>
+</header>
+
+<section>
+    <h2>Our Expertise</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Enterprise Web Systems</h3>
+            <p>High‑performance platforms engineered for scalability, security, and corporate growth.</p>
+        </div>
+
+        <div class="card">
+            <h3>IT Infrastructure</h3>
+            <p>Robust, secure, and future‑ready IT solutions for modern organizations.</p>
+        </div>
+
+        <div class="card">
+            <h3>Digital Transformation</h3>
+            <p>Strategic consulting to elevate your business into the next era of technology.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 TopRank Technologies, LLC — All Rights Reserved
+</footer>
+
+</body>
+</html>
